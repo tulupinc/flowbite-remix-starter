@@ -1,7 +1,19 @@
+import type { LinkDescriptor } from "@remix-run/node";
+import styles from "~/styles.css";
+
+export function links(): LinkDescriptor[] {
+  return [
+    {
+      href: styles,
+      rel: "stylesheet",
+    },
+  ];
+}
+
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to Remix</h1>
+      <h1 className="text-4xl">Welcome to Remix</h1>
       <ul>
         <li>
           <a
