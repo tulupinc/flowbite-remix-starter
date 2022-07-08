@@ -711,10 +711,10 @@
     source-map-support "^0.5.21"
     stream-slice "^0.1.2"
 
-"@remix-run/react@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@remix-run/react/-/react-1.5.1.tgz#372e5e80f3f10a638b0567c4e03307dfb0a28dc0"
-  integrity sha512-p4t6tC/WyPeLW7DO4g7ZSyH9EpWO37c4wD2np3rDwtv3WtsTZ70bU/+NOWE9nv74mH8i1C50eJ3/OR+8Ll8UbA==
+"@remix-run/react@^1.6.0":
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/@remix-run/react/-/react-1.6.4.tgz#a939d8d604e0639f20ecd4177347a6943757ebdc"
+  integrity sha512-Ai05U2pZqAqd4buvomKRJM32u34qmb7W7dZCxUYMV+6+CkYddxOjnrFcnG/KyRSqmJ12O8UWAspJCvkfbZVW5w==
   dependencies:
     history "^5.3.0"
     react-router-dom "^6.2.2"
