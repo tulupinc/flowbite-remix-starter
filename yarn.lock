@@ -711,13 +711,14 @@
     source-map-support "^0.5.21"
     stream-slice "^0.1.2"
 
-"@remix-run/react@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@remix-run/react/-/react-1.5.1.tgz#372e5e80f3f10a638b0567c4e03307dfb0a28dc0"
-  integrity sha512-p4t6tC/WyPeLW7DO4g7ZSyH9EpWO37c4wD2np3rDwtv3WtsTZ70bU/+NOWE9nv74mH8i1C50eJ3/OR+8Ll8UbA==
+"@remix-run/react@^1.6.8":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@remix-run/react/-/react-1.7.0.tgz#79f739641e1b9f5a1604cb42b594c03240e58c46"
+  integrity sha512-RFE45LX2NXA54JJ0jazm8VrkttXA57TbRigvqZwSi91XHH2ANLwvSOE9KI0P4fZLFTvMfzy9v45qmfmq7/YxHQ==
   dependencies:
     history "^5.3.0"
     react-router-dom "^6.2.2"
+    type-fest "^2.17.0"
 
 "@remix-run/serve@^1.5.1":
   version "1.5.1"
@@ -6396,6 +6397,11 @@ type-fest@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
+
+type-fest@^2.17.0:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-2.19.0.tgz#88068015bb33036a598b952e55e9311a60fd3a9b"
+  integrity sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==
 
 type-is@~1.6.18:
   version "1.6.18"
