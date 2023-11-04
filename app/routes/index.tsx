@@ -146,7 +146,7 @@ function HomePage(): JSX.Element {
       <section>
         <header>
           <h1 className="mb-6 text-5xl font-extrabold">
-            Welcome to <code>Flowbite</code> on <code>Next.js</code>!
+            Welcome to <code>Flowbite</code> on <code>Remix</code>!
           </h1>
         </header>
       </section>
